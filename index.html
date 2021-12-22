@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="style.css">
+<section class="showcase">
+    <header>
+        <h2 class="logo">QUOTES</h2>
+        <div class="toggle"></div>
+    </header>
+    <video src="video.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+        <h2>never forget </h2>
+        <h3>why you started</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis ad reiciendis vitae earum delectus rem
+            dolorem? Facilis harum ipsum sed consectetur recusandae fuga, soluta nisi temporibus. Sapiente nemo facere
+            expedita, nostrum natus culpa numquam soluta recusandae iste ducimus, atque, unde obcaecati optio? Officiis,
+            odit ipsa. Dicta libero eaque distinctio reiciendis fuga, rem maxime natus doloribus exercitationem vitae
+            iste laboriosam itaque suscipit officia in esse ex voluptatum? Alias id, dolorum et natus quae dolor
+            doloribus rem odit eius, suscipit beatae magni cum ipsam repellat! Consequuntur exercitationem aliquid
+            dolorem, dolorum eos facere officiis laboriosam ratione ea inventore et, voluptate voluptatibus dicta
+            obcaecati ipsa ex illo quisquam quo repellendus nam explicabo temporibus, laudantium voluptas.
+            <br>
+        <h3>VIVEK MADDESHIYA</h3>
+        </p>
+        <a href="#">Explore</a>
+    </div>
+    <ul class="social">
+        <li><a href="https://www.facebook.com/" target="_blank"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a>
+        </li>
+        <li><a href="https://twitter.com/" target="_blank"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="https://www.instagram.com/" target="_blank"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a>
+        </li>
+
+    </ul>
+</section>
+<div class="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+
+    </ul>
+
+</div>
+<script>
+    const menuToggle = document.querySelector('.toggle');
+    const showcase = document.querySelector('.showcase');
+
+    menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+    })
+</script>
